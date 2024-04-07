@@ -36,3 +36,12 @@ string and how many times it was found.
     ruby sub_strings.rb
     ```
 4. Follow the on-screen instructions to find the substrings in a word.
+
+
+## Project: Bubble Sort
+
+[Source Code](bubble_sort/)
+
+### Description
+
+This is a simple implementation of the Bubble Sort algorithm in Ruby.
