@@ -30,7 +30,7 @@ RSpec.describe 'Caesar Cipher' do
     end
 
     it 'can handle a fancy text with my code name' do
-      expect(caesar_cipher('I am theLazyProgrammer^_^')).to eq('N fr ymjQfedUwtlwfrrjw^_^')
+      expect(caesar_cipher('I am theLazyProgrammer^_^', 5)).to eq('N fr ymjQfedUwtlwfrrjw^_^')
     end
   end
 end
