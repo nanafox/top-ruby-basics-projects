@@ -19,6 +19,8 @@ ruby caesar_cipher.rb
 
 ## Project: Sub Strings
 
+[Source Code](substrings/)
+
 ### Description
 
 This is a simple implementation of a method that takes a word as the first
