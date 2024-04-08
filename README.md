@@ -45,3 +45,14 @@ string and how many times it was found.
 ### Description
 
 This is a simple implementation of the Bubble Sort algorithm in Ruby.
+
+
+## Project: Stock Picker
+
+[Source Code](stock_picker/)
+
+### Description
+
+This is a simple implementation of a method that takes an array of stock prices,
+one for each hypothetical day. It returns a pair of days representing the best
+day to buy and the best day to sell.
