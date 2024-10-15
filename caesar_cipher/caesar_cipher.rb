@@ -6,7 +6,8 @@ def letter?(char)
 end
 
 # Shifts a character by a given factor according to the Caesar Cipher.
-# The shift wraps around the alphabet, so 'z' shifted by 1 becomes 'a', and 'Z' shifted by 1 becomes 'A'.
+# The shift wraps around the alphabet, so 'z' shifted by 1 becomes
+# 'a', and 'Z' shifted by 1 becomes 'A'.
 #
 # @param char [String] the character to be shifted. Must be a single character string.
 # @param shift_factor [Integer] the number of positions to shift the character in the alphabet.
@@ -27,6 +28,6 @@ end
 # @param shift_factor [Integer] The shift factor
 #
 # @return [String] The ciphered text.
-def caesar_cipher(string, shift_factor)
+def caesar_cipher(string = String, shift_factor = Integer)
   string.chars.map { |char| letter?(char) ? shift_char(char, shift_factor) : char }.join
 end
